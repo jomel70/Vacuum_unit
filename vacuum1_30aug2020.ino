@@ -8,7 +8,7 @@
 #include "mcp_can.h"
 
 const int vacuum_limit=50;   //sends ok to picker if vacuum below limit
-int pump_on=1;
+int pump_on=0;
 
 
 const int motor_pin=3; //PWM out to pumps
